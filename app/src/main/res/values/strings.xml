@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">CarPrice</string>
     <string name="recherche">Recherche</string>
+    <string name="page_accueil">Bienvenue sur l\'application CarPrice. \nCette application vous est offert par\n
+                                Ludovik Marcelis et Marc Quenon
+    </string>
+    <string name="connection">Log in</string>
+    <string name="inscription">Sign in</string>
+    <string name="accueil">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
