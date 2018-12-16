@@ -27,7 +27,7 @@
        android:layout_height="62dp"
        android:layout_marginBottom="16dp"
        android:text="@string/page_accueil"
-       app:layout_constraintBottom_toTopOf="@+id/btn_welcome"
+       app:layout_constraintBottom_toTopOf="@+id/btn_google_map"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintHorizontal_bias="0.503"
        app:layout_constraintStart_toStartOf="parent"
@@ -35,17 +35,17 @@
 
    <Button
        android:id="@+id/btn_sign_in"
-       android:layout_width="wrap_content"
+       android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_marginBottom="16dp"
        android:text="@string/inscription"
        app:layout_constraintBottom_toTopOf="@+id/btn_log_in"
        app:layout_constraintStart_toStartOf="@+id/btn_log_in"
-       app:layout_constraintTop_toBottomOf="@+id/btn_welcome" />
+       app:layout_constraintTop_toBottomOf="@+id/btn_google_map" />
 
    <Button
        android:id="@+id/btn_log_in"
-       android:layout_width="wrap_content"
+       android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_marginBottom="16dp"
        android:text="@string/connection"
@@ -54,18 +54,18 @@
        app:layout_constraintTop_toBottomOf="@+id/btn_sign_in" />
 
    <Button
-       android:id="@+id/btn_welcome"
-       android:layout_width="wrap_content"
+       android:id="@+id/btn_google_map"
+       android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_marginBottom="17dp"
-       android:text="@string/accueil"
+       android:text="@string/map"
        app:layout_constraintBottom_toTopOf="@+id/btn_sign_in"
        app:layout_constraintStart_toStartOf="@+id/btn_sign_in"
        app:layout_constraintTop_toBottomOf="@+id/tv_welcome" />
 
    <Button
        android:id="@+id/btn_search_car"
-       android:layout_width="wrap_content"
+       android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_marginBottom="81dp"
        android:text="@string/recherche"
