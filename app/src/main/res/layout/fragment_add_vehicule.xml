@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vehicule.AddVehicule">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/et_v_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/brand" />
+
+    <EditText
+        android:id="@+id/et_v_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/model"
+         />
+
+    <EditText
+        android:id="@+id/et_v_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:hint="@string/state"
+         />
+
+    <EditText
+        android:id="@+id/et_v_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:hint="@string/type"
+         />
+
+    <EditText
+        android:id="@+id/et_v_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:hint="@string/country"
+         />
+
+    <EditText
+        android:id="@+id/et_v_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="100dp"
+        android:hint="@string/price"
+        />
+
+    <EditText
+        android:id="@+id/et_v_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:hint="@string/year" />
+
+    <EditText
+        android:id="@+id/et_v_town"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="140dp"
+        android:hint="@string/town" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_add"
+        android:text="@string/add"
+        android:layout_marginTop="300dp"
+        />
+
+
+</FrameLayout>
