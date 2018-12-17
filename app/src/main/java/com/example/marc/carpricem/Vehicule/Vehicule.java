@@ -23,6 +23,19 @@ public class Vehicule {
         this.model = model;
     }
 
+    @Override
+    public String toString() {
+        return "Vous recherchez une" +
+                 brand + ' ' +
+                 model + ' ' +
+                 type + ", " +
+                 state + ' ' +
+                "de l'année'" + year  +
+                " à " + price +
+                "€ , " + country +
+                " " + town ;
+    }
+
     public String getType() {
         return type;
     }

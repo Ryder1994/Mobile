@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="54dp"
         android:layout_marginTop="60dp"
-        android:hint="@string/username"
+        android:hint="@string/firstname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -52,7 +52,7 @@
         android:id="@+id/et_town"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="6dp"
         android:hint="@string/town"
         app:layout_constraintStart_toStartOf="@+id/et_country"
         app:layout_constraintTop_toBottomOf="@+id/et_country" />
@@ -61,7 +61,7 @@
         android:id="@+id/et_passaword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="11dp"
         android:hint="@string/password"
         app:layout_constraintStart_toStartOf="@+id/et_number"
         app:layout_constraintTop_toBottomOf="@+id/et_number" />
@@ -70,7 +70,7 @@
         android:id="@+id/et_street"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="6dp"
         android:hint="@string/street"
         app:layout_constraintStart_toStartOf="@+id/et_mail"
         app:layout_constraintTop_toBottomOf="@+id/et_mail" />
@@ -97,20 +97,11 @@
         android:id="@+id/btn_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="27dp"
+        android:layout_marginBottom="96dp"
         android:text="@string/inscription"
-        app:layout_constraintBottom_toTopOf="@+id/btn_back"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_back"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="37dp"
-        android:text="@string/retour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>

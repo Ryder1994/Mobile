@@ -24,4 +24,5 @@
     <string name="state">State</string>
     <string name="model">Model</string>
     <string name="brand">Brand</string>
+    <string name="firstname">Firstname</string>
 </resources>

@@ -8,7 +8,7 @@
     tools:layout_editor_absoluteY="25dp">
 
     <EditText
-        android:id="@+id/et_brand"
+        android:id="@+id/et_v_brand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
@@ -18,90 +18,88 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_model"
+        android:id="@+id/et_v_model"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="95dp"
+        android:layout_marginEnd="94dp"
         android:layout_marginTop="51dp"
         android:hint="@string/model"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_state"
+        android:id="@+id/et_v_state"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
         android:layout_marginTop="28dp"
         android:hint="@string/state"
-        app:layout_constraintEnd_toEndOf="@+id/et_brand"
-        app:layout_constraintStart_toStartOf="@+id/et_brand"
-        app:layout_constraintTop_toBottomOf="@+id/et_brand" />
+        app:layout_constraintEnd_toEndOf="@+id/et_v_brand"
+        app:layout_constraintTop_toBottomOf="@+id/et_v_brand" />
 
     <EditText
-        android:id="@+id/et_type"
+        android:id="@+id/et_v_type"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:hint="@string/type"
-        app:layout_constraintStart_toStartOf="@+id/et_model"
-        app:layout_constraintTop_toBottomOf="@+id/et_model" />
+        app:layout_constraintStart_toStartOf="@+id/et_v_model"
+        app:layout_constraintTop_toBottomOf="@+id/et_v_model" />
 
     <EditText
-        android:id="@+id/et_country"
+        android:id="@+id/et_v_country"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:hint="@string/country"
-        app:layout_constraintStart_toStartOf="@+id/et_year"
-        app:layout_constraintTop_toBottomOf="@+id/et_year" />
+        app:layout_constraintStart_toStartOf="@+id/et_v_year"
+        app:layout_constraintTop_toBottomOf="@+id/et_v_year" />
 
     <EditText
-        android:id="@+id/et_price"
+        android:id="@+id/et_v_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
         android:hint="@string/price"
-        app:layout_constraintBottom_toTopOf="@+id/et_town"
-        app:layout_constraintStart_toStartOf="@+id/et_town" />
+        app:layout_constraintBottom_toTopOf="@+id/et_v_town"
+        app:layout_constraintStart_toStartOf="@+id/et_v_town" />
 
     <EditText
-        android:id="@+id/et_year"
+        android:id="@+id/et_v_year"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="31dp"
         android:hint="@string/year"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_state" />
+        app:layout_constraintTop_toBottomOf="@+id/et_v_state" />
 
     <EditText
-        android:id="@+id/et_town"
+        android:id="@+id/et_v_town"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="101dp"
+        android:layout_marginEnd="100dp"
         android:hint="@string/town"
-        app:layout_constraintBottom_toBottomOf="@+id/et_country"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/et_country" />
+        app:layout_constraintBottom_toBottomOf="@+id/et_v_country"
+        app:layout_constraintEnd_toEndOf="@+id/tv_v_search"
+        app:layout_constraintTop_toTopOf="@+id/et_v_country" />
 
-    <Button
-        android:id="@+id/btn_search"
+    <TextView
+        android:id="@+id/tv_v_search"
+        android:text=" "
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="119dp"
-        android:layout_marginTop="126dp"
+        android:layout_marginBottom="49dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_v_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_v_search"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="79dp"
         android:text="@string/recherche"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/et_country" />
-
-    <Button
-        android:id="@+id/btn_retour"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
-        android:text="@string/retour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
